@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background: linear-gradient(155deg, purple, red);
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+    height: 90vh;
+    /* border: 2px solid white; */
+    /* border: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main {
+    width: 75vw;
+    height: 85vh;
+    /* border: 2px solid; */
+    border-radius: 2vh;
+    border: none;
+    display: flex;
+    /* background-color: #ffffffc2; */
+}
+
+.left {
+    width: 37.5vw;
+    height: 100%;
+    /* border: 1px solid; */
+    background-color: rgba(242, 242, 242, 0.84);
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+
+}
+
+.right {
+    width: 37.5vw;
+    height: 100%;
+    /* border: 1px solid; */
+    background-color: #8a8888;
+    border-top-right-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+}
+
+
+.upLeft {
+    height: 42.5vh;
+    /* border: 1px solid white; */
+    border-radius: 2vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upRight {
+    height: 42.5vh;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downLeft {
+    height: 42.5vh;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downRight {
+    height: 42.5vh;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textL {
+    height: 25vh;
+    width: 30vw;
+    /* border: 1px solid; */
+    font-size: 8vh;
+}
+
+.textR {
+    height: 25vh;
+    width: 30vw;
+    /* border: 1px solid; */
+    font-size: 8vh;
+}
+
+.perScore1 {
+    color: rgb(116, 14, 36);
+    text-align: center;
+
+    /* font-size: 6vh; */
+}
+
+.perScore2 {
+    color: rgb(116, 14, 36);
+    text-align: center;
+
+    /* font-size: 6vh; */
+}
+
+.playerName1 {
+    text-align: center;
+    margin-bottom: 2vh;
+    font-family: 'Lobster', sans-serif;
+
+}
+
+.playerName2 {
+    text-align: center;
+    margin-bottom: 2vh;
+    font-family: 'Lobster', sans-serif;
+
+}
+
+.textR p {
+    text-align: center;
+    /* margin-bottom: 2vh; */
+    /* color: rgb(0, 0, 0); */
+}
+
+.scorePlayer1 {
+    height: 15vh;
+    width: 20vw;
+    /* border: 1px solid; */
+    padding: 2vh 3vh;
+    background-color: rgb(118, 7, 77);
+    border-radius: 2vh;
+
+}
+
+.scorePlayer2 {
+    height: 15vh;
+    width: 20vw;
+    /* border: 1px solid; */
+    padding: 2vh 3vh;
+    background-color: rgb(118, 7, 77);
+    border-radius: 2vh;
+
+}
+
+.status {
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    margin-bottom: 3vh;
+}
+
+.tempScore1 {
+    color: white;
+    text-align: center;
+    font-size: 7vh;
+    margin-bottom: 3vh;
+}
+
+.tempScore2 {
+    color: white;
+    text-align: center;
+    font-size: 7vh;
+    margin-bottom: 3vh;
+}
+
+.upMain {
+    width: 75vw;
+    height: 85vh;
+    /* border: 10px solid; */
+    position: absolute;
+}
+
+.one {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 3vh;
+}
+
+.newgame {
+
+    /* top: 20vh; */
+    font-size: 3vh;
+    padding: 1vh 2vh;
+    border: none;
+    border-radius: 2vh;
+    left: 32vw;
+    cursor: pointer;
+    transition: 0.2s;
+    outline: none;
+}
+
+.newgame:hover {
+    transform: translateY(0.5vh);
+    background-color: #2c2c2c;
+    color: white;
+
+}
+
+.second {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 45vh;
+}
+
+.rolldice {
+    /* position: absolute; */
+    /* top: 45vh; */
+    font-size: 3vh;
+    padding: 1vh 2vh;
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+    /* left: 33vw; */
+    transition: 0.2s;
+    outline: none;
+}
+
+.rolldice:hover {
+    transform: translateY(0.5vh);
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.slight {
+    transform: scale(0.5);
+}
+
+.third {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 55vh;
+}
+
+.fourth {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 27vh;
+}
+
+.image {
+    height: 15vh;
+}
+
+.hold {
+    /* position: absolute; */
+    /* top: 55vh; */
+    font-size: 3vh;
+    padding: 1vh 2vh;
+    border: none;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: 0.2s;
+    outline: none;
+    /* left: 33vw; */
+}
+
+.hold:hover {
+    transform: translateY(0.5vh);
+    background-color: #2c2c2c;
+    color: rgb(0, 0, 0);
+}
+
+.blackBG {
+    background-color: black !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.bgChange {
+    background-color: rgba(242, 242, 242, 0.84) !important;
+}
+
+/* #8a8888  */
+.bg2Change {
+    background-color: #8a8888 !important;
+}
+
+.bgBlack {
+    background-color: black !important;
+}
+
+@media screen and (max-width : 930px) {
+    .newgame {
+        font-size: 2.5vh;
+    }
+
+    .rolldice {
+        font-size: 2.5vh;
+    }
+
+    .hold {
+        font-size: 2.5vh;
+    }
+
+    .scorePlayer1 {
+        height: 15vh;
+        width: 15vw;
+    }
+
+    .scorePlayer2 {
+        height: 15vh;
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .newgame {
+        font-size: 2vh;
+    }
+
+    .rolldice {
+        font-size: 2vh;
+    }
+
+    .hold {
+        font-size: 2vh;
+    }
+
+    .scorePlayer1 {
+        height: 15vh;
+        width: 10vw;
+        /* box-sizing: border-box; */
+    }
+
+    .scorePlayer2 {
+        height: 15vh;
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .newgame {
+        font-size: 2vh;
+    }
+
+    .rolldice {
+        font-size: 2vh;
+    }
+
+    .hold {
+        font-size: 2vh;
+    }
+
+    .scorePlayer1 {
+        height: 12vh;
+        width: 10vw;
+        /* box-sizing: border-box; */
+    }
+
+    .scorePlayer2 {
+        height: 12vh;
+        width: 10vw;
+    }
+
+    .status {
+        color: white;
+        text-align: center;
+        font-size: 2vh;
+        margin-bottom: 3vh;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .newgame {
+        font-size: 2vh;
+    }
+
+    .rolldice {
+        font-size: 2vh;
+        position: relative;
+        bottom: 3vh;
+    }
+
+    .hold {
+        font-size: 2vh;
+        position: relative;
+        bottom: 6vh;
+    }
+
+    .scorePlayer1 {
+        height: 10vh;
+        width: 10vw;
+    }
+
+    .scorePlayer2 {
+        height: 10vh;
+        width: 10vw;
+    }
+
+    .status {
+        color: white;
+        text-align: center;
+        font-size: 1.5vh;
+        margin-bottom: 2vh;
+    }
+
+    .image {
+        position: relative;
+        bottom: 3vh;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .newgame {
+        font-size: 2vh;
+    }
+
+    .rolldice {
+        font-size: 2vh;
+        position: relative;
+        bottom: 3vh;
+    }
+
+    .hold {
+        font-size: 2vh;
+        position: relative;
+        bottom: 6vh;
+    }
+
+    .scorePlayer1 {
+        height: 10vh;
+        /* width: 10vw; */
+    }
+
+    .scorePlayer2 {
+        height: 10vh;
+        /* width: 12vw; */
+    }
+
+    .status {
+        color: white;
+        text-align: center;
+        font-size: 1vh;
+        margin-bottom: 2vh;
+    }
+
+    .image {
+        position: relative;
+        bottom: 3vh;
+        height: 12vh;
+    }
+}
